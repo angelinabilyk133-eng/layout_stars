@@ -1,9 +1,15 @@
 /* src/blocks/stars.css */
+body {
+  margin: 0;
+}
+
+
 .stars {
   display: flex;
 }
 
 .stars__star {
+  flex-shrink: 0;
   display: block;
   height: 16px;
   width: 16px;
